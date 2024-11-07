@@ -1,0 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class MainMenuu : MonoBehaviour
+{
+    public void PlayGame()
+    {
+        SceneManager.LoadSceneAsync("Game Screen");
+
+    }
+
+    public void Settings()
+    {
+
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
+        Debug.Log("Exit");
+    }
+}
