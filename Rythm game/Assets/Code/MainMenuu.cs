@@ -13,7 +13,7 @@ public class MainMenuu : MonoBehaviour
 
     public void Settings()
     {
-
+        SceneManager.LoadSceneAsync("SettingsScreen");
     }
 
     public void Exit()
