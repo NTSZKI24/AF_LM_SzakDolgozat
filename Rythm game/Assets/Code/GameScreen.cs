@@ -7,4 +7,9 @@ public class GameScreen : MonoBehaviour
     {
         SceneManager.LoadSceneAsync("menu");
     }
+
+    public void StartGameButton()
+    {
+
+    }
 }
