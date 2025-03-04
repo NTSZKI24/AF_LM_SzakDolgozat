@@ -10,7 +10,9 @@ public class GameScreen : MonoBehaviour
 
 
     [SerializeField] SpriteRenderer spriteRenderer;
+
     int randomArrow;
+    int randomLength;
 
     public void XButton()
     {
@@ -24,8 +26,12 @@ public class GameScreen : MonoBehaviour
 
     public void ArrowRandomizer()
     {
-        randomArrow = Random.Range(1, 5);
-        spriteRenderer.sprite = arrowImages[randomArrow];
-        print(randomArrow);
+        randomLength = Random.Range(3, 5);
+        for (int i = 0; i < randomLength; i++)
+        {
+            randomArrow = Random.Range(0, 4);
+            spriteRenderer.sprite = arrowImages[randomArrow];
+            print(randomArrow);
+        }
     }
 }
