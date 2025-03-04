@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RYTHMN logo_0: -8752318267126346241
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

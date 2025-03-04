@@ -17,10 +17,15 @@ public class GameScreen : MonoBehaviour
         SceneManager.LoadSceneAsync("menu");
     }
 
+    private void Start()
+    {
+        ArrowRandomizer();
+    }
+
     public void ArrowRandomizer()
     {
-        randomArrow = Random.Range(1, arrowImages.Length + 1);
-        spriteRenderer.sprite = arrowImages[randomArrow - 1];
+        randomArrow = Random.Range(1, 5);
+        spriteRenderer.sprite = arrowImages[randomArrow];
         print(randomArrow);
     }
 }
