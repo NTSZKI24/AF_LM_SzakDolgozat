@@ -21,17 +21,6 @@ public class GameScreen : MonoBehaviour
 
     private void Start()
     {
-        ArrowRandomizer();
-    }
-
-    public void ArrowRandomizer()
-    {
-        randomLength = Random.Range(3, 5);
-        for (int i = 0; i < randomLength; i++)
-        {
-            randomArrow = Random.Range(0, 4);
-            spriteRenderer.sprite = arrowImages[randomArrow];
-            print(randomArrow);
-        }
+    
     }
 }
