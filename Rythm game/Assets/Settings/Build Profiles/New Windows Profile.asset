@@ -26,6 +26,8 @@ MonoBehaviour:
     m_path: Assets/Scenes/Game Screen.unity
   - m_enabled: 1
     m_path: Assets/Scenes/SettingsScreen.unity
+  - m_enabled: 1
+    m_path: Assets/Scenes/profile 2.unity
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
     m_Settings: []
