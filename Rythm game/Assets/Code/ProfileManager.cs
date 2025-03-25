@@ -1,6 +1,7 @@
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class ProfileManager : MonoBehaviour {
@@ -54,4 +55,4 @@ public class ProfileManager : MonoBehaviour {
         }
     }
 
-}
+}*/
