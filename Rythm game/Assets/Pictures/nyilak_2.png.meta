@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: c34908069387c2b4cad182a2122336c9
+guid: 43c3b1467e2e4294988b25a1050c1dbc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4734956446869664034
-    second: nyilak_0
+      213: 5955871963038764573
+    second: nyilak_2_0
   - first:
-      213: -829329661849339473
-    second: nyilak_1
+      213: 7722798976637887189
+    second: nyilak_2_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,29 +103,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nyil_4
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 0
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e02c1a4c06d0534ba65faaedebebdda
-      internalID: 75480087
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: nyil_1
+      name: nyilak_2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -138,21 +116,21 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b746dc485584c8041abbf3f4ac09909f
-      internalID: -511356371
+      spriteID: d1e42acaef187a250800000000000000
+      internalID: 5955871963038764573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nyil_2
+      name: nyilak_2_1
       rect:
         serializedVersion: 2
-        x: 500
+        x: 1501
         y: 0
-        width: 500
+        width: 499
         height: 500
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -160,16 +138,38 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e65409b90f444644a967b8d1bde37707
-      internalID: -28812033
+      spriteID: 5d2604a80c4ec2b60800000000000000
+      internalID: 7722798976637887189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: nyil_3
+      name: nyilak_2_2
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 0
+        width: 499
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 1, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472d8193bf5d4f9479653ef855e1e012
+      internalID: 641326305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: nyilak_2_3
       rect:
         serializedVersion: 2
         x: 1000
@@ -184,8 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6a7f706c8b3ef846911020d1cadd6cc
-      internalID: 940274224
+      spriteID: f988542752fbc2c4ba778f72117e1d11
+      internalID: -902696960
       vertices: []
       indices: 
       edges: []
@@ -194,7 +194,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c06e465f59d147b4583f8e0b4b93ddeb
+    spriteID: 433475ac13124904b89fcf01df72c560
     internalID: 0
     vertices: []
     indices: 
@@ -204,10 +204,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      nyil_1: -511356371
-      nyil_2: -28812033
-      nyil_3: 940274224
-      nyil_4: 75480087
+      nyilak_2_0: 5955871963038764573
+      nyilak_2_1: 7722798976637887189
+      nyilak_2_2: 641326305
+      nyilak_2_3: -902696960
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
