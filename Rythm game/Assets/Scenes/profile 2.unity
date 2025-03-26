@@ -278,9 +278,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 381232321}
-        m_TargetAssemblyTypeName: MainMenuu, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 381232327}
+        m_TargetAssemblyTypeName: ProfileManager, Assembly-CSharp
+        m_MethodName: OnSignUpButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -712,6 +712,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d372fb45ba69a6247b6719d8a5f512b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  errorText: {fileID: 0}
+  loginNameField: {fileID: 0}
+  loginPasswordField: {fileID: 0}
+  registerNameField: {fileID: 0}
+  registerMailField: {fileID: 0}
+  registerPasswordField: {fileID: 0}
+  signInButton: {fileID: 0}
+  signUpButton: {fileID: 0}
 --- !u!1 &491258772
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,13 +803,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 381232321}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
+      - m_Target: {fileID: 381232327}
+        m_TargetAssemblyTypeName: ProfileManager, Assembly-CSharp
+        m_MethodName: OnSignInButtonClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1874,6 +1882,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d372fb45ba69a6247b6719d8a5f512b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  errorText: {fileID: 0}
+  loginNameField: {fileID: 0}
+  loginPasswordField: {fileID: 0}
+  registerNameField: {fileID: 0}
+  registerMailField: {fileID: 0}
+  registerPasswordField: {fileID: 0}
+  signInButton: {fileID: 0}
+  signUpButton: {fileID: 0}
 --- !u!1 &940116500
 GameObject:
   m_ObjectHideFlags: 0
