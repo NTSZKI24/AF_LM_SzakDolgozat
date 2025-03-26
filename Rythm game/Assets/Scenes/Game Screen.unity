@@ -607,7 +607,7 @@ MonoBehaviour:
   songDelayInSeconds: 0
   marginOfError: 0.1
   inputDelayInMilliseconds: 0
-  fileLocation: gamesong1.mid
+  fileLocation: gamesong05.mid
   noteTime: 1.8
   noteSpawnY: 0
   noteTapY: -300
@@ -1247,8 +1247,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bbe8924aceca8644dab95d9979ce3c2c, type: 3}
-  m_Resource: {fileID: 8300000, guid: bbe8924aceca8644dab95d9979ce3c2c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 196b157349472bf428bbfb62fc551cc2, type: 3}
+  m_Resource: {fileID: 8300000, guid: 196b157349472bf428bbfb62fc551cc2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1919,10 +1919,10 @@ RectTransform:
   m_Children:
   - {fileID: 199200227}
   - {fileID: 958237791}
-  - {fileID: 1851543994}
   - {fileID: 1709451848}
   - {fileID: 1252479439}
   - {fileID: 841426739}
+  - {fileID: 1851543994}
   - {fileID: 1435395789}
   - {fileID: 865347402}
   - {fileID: 2133566098}
