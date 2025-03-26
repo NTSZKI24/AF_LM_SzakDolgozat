@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class ProfileManager : MonoBehaviour 
 {
-    /*[Header("UI")]
+    [Header("UI")]
     public Text errorText;
     public InputField loginNameField;
     public InputField loginPasswordField; 
@@ -16,19 +16,19 @@ public class ProfileManager : MonoBehaviour
     public Button signInButton;
     public Button signUpButton;
 
-    void Start()
+    public void Start()
     {
         signInButton.onClick.AddListener(OnSignInButtonClick);
         signUpButton.onClick.AddListener(OnSignUpButtonClick);
 
     }
 
-    void OnSignInButtonClick()
+    public void OnSignInButtonClick()
     {
-        string logUs = loginNameField.text;
-        string logPw = loginPasswordField.text;
+        var logUs = loginNameField.text;
+        var logPw = loginPasswordField.text;
 
-        string teszt = "";
+        var teszt = "asd";
 
         if (logUs == teszt && logPw == teszt)
         {
@@ -36,25 +36,25 @@ public class ProfileManager : MonoBehaviour
         } 
         else
         {
-            errorText.text="Wrong username or password!";
+            errorText.text= "Wrong username or password!";
         }
     }
 
-    void OnSignUpButtonClick()
+    public void OnSignUpButtonClick()
     {
-        string regUs = registerNameField;
-        string regEm = registerMailField;
-        string regPw = registerPasswordField;
+        var regUs = registerNameField;
+        var regEm = registerMailField;
+        var regPw = registerPasswordField;
 
         if (regUs == regPw)
         {
-            errorText.text("Username and password can't match!");
+            errorText.text = "Username and password can't match!";
         }
         else
         {
             //
         }
-    }*/
+    }
 
     public void XButton()
     {
