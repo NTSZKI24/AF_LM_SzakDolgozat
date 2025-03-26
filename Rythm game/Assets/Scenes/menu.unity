@@ -1805,7 +1805,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 381232325}
         m_TargetAssemblyTypeName: MainMenuu, Assembly-CSharp
-        m_MethodName: Settings
+        m_MethodName: ScoreBoard
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

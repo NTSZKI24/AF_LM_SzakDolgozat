@@ -16,9 +16,9 @@ public class MainMenuu : MonoBehaviour
         SceneManager.LoadSceneAsync("profile 2");
     }
 
-    public void Settings()
+    public void ScoreBoard()
     {
-        SceneManager.LoadSceneAsync("SettingsScreen");
+        SceneManager.LoadSceneAsync("ScoreBoardScreen");
     }
 
     public void Exit()

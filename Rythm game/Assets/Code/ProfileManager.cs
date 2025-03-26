@@ -1,11 +1,12 @@
-/*using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class ProfileManager : MonoBehaviour {
-    [Header("UI")]
+public class ProfileManager : MonoBehaviour 
+{
+    /*[Header("UI")]
     public Text errorText;
     public InputField loginNameField;
     public InputField loginPasswordField; 
@@ -53,6 +54,11 @@ public class ProfileManager : MonoBehaviour {
         {
             //
         }
+    }*/
+
+    public void XButton()
+    {
+        SceneManager.LoadSceneAsync("menu");
     }
 
-}*/
+}

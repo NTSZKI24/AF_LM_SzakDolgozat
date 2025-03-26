@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SettingsScreen : MonoBehaviour
+public class ScoreBoardScreen : MonoBehaviour
 {
     public void XButton()
     {
