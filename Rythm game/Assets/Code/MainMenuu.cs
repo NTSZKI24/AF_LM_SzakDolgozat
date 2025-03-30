@@ -16,6 +16,11 @@ public class MainMenuu : MonoBehaviour
         SceneManager.LoadSceneAsync("profile 2");
     }
 
+    public void Register()
+    {
+        SceneManager.LoadSceneAsync("Register");
+    }
+
     public void ScoreBoard()
     {
         SceneManager.LoadSceneAsync("ScoreBoardScreen");
