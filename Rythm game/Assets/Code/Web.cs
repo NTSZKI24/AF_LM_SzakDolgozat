@@ -10,7 +10,7 @@ public class Web : MonoBehaviour
     {
         StartCoroutine(getUser());
         //StartCoroutine(Login("teszt", "123456"));
-        //StartCoroutine(RegisterUser("testuser", "jelszo"));
+        //StartCoroutine(RegisterUser("testuser", "jelszo", tesztemail2@gmail.com));
     }
     IEnumerator getUser()
     {

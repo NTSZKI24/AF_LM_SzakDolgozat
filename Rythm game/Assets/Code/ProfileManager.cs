@@ -16,12 +16,14 @@ public class ProfileManager : MonoBehaviour
     public Button signInButton;
     public Button signUpButton;
 
+    /*
     public void Start()
     {
         signInButton.onClick.AddListener(OnSignInButtonClick);
         signUpButton.onClick.AddListener(OnSignUpButtonClick);
 
     }
+    */
 
     public void OnSignInButtonClick()
     {
